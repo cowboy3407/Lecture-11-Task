@@ -91,6 +91,7 @@ body {
 
 .car1 {
     animation: move 12s infinite linear;
+    position: absolute;
 }
 
 @keyframes move {
@@ -100,6 +101,8 @@ body {
 
 .car2 {
     animation: move1 12s infinite linear;
+    position: absolute;
+    bottom: 15px;
 }
 
 @keyframes move1 {
