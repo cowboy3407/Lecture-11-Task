@@ -7,7 +7,13 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(/bck.png);
+}
+
+.bck {
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    position: absolute;
 }
 
 .top {
@@ -101,3 +107,4 @@ body {
     70% {transform: translate(80vw);}
     100% {transform: translate(85vw);}    
 }
+
